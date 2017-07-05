@@ -1,0 +1,49 @@
+.background-image {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/df/4e/8b/df4e8ba28f912bf9cdf9fa0dfc196411.png');
+  background-size: cover;
+  display: block;
+      filter: brightness(25%);
+        -webkit-filter: brightness(25%);
+  height: 600px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+
+.content {
+  font-family: Oswald;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  z-index: 2;
+}
+
+.transparent {
+  background-color: rgba(0,0,255,0.5);
+}
+
+.center_container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-box-pack: center;
+  	-moz-box-pack: center;
+  	-ms-flex-pack: center;
+  	-webkit-justify-content: center;
+  	justify-content: center;
+  	-webkit-box-align: center;
+  	-moz-box-align: center;
+  	-ms-flex-align: center;
+  	-webkit-align-items: center;
+  	align-items: center;
+    overflow: hidden;
+
+}
